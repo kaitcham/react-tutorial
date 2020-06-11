@@ -9,6 +9,7 @@ import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/rooms" component={Rooms} />
         <Route exact path="/room/:slug" component={SingleRoom} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>
     </>
