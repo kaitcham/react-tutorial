@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   state = {
-    isOpen: false
+    isOpen: false,
   };
 
   handleToggle = () => {
@@ -36,6 +36,9 @@ export default class Navbar extends Component {
             </li>
             <li>
               <Link to="/rooms">Rooms</Link>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
             </li>
           </ul>
         </div>
